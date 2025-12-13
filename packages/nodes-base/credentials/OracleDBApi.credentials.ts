@@ -34,7 +34,7 @@ export class OracleDBApi implements ICredentialType {
 			displayName: 'Use Optional Oracle Client Libraries',
 			name: 'useThickMode',
 			type: 'boolean',
-			default: false,
+			default: true,
 			displayOptions: {
 				hideOnCloud: true,
 			},
